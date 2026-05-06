@@ -3,7 +3,7 @@ import { MODEL_NAME } from "../constants";
 
 // Initialize the client. 
 // Note: process.env.API_KEY is handled by the build environment/runtime.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 
 /**
  * Clean up the base64 string if it includes the data URL prefix.
