@@ -1,0 +1,5 @@
+{
+  "name": "DreamSpace AI",
+  "description": "An AI-powered interior design assistant that reimagines your bedroom in various styles using Gemini 2.5.",
+  "requestFramePermissions": []
+}
